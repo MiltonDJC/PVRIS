@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    background: black;
+}
 header{
     display: flex;
     justify-content: center;
