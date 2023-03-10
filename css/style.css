@@ -14,6 +14,10 @@ header{
 }
 nav{
     border-bottom: 2px black solid;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Rampart One', cursive; */
 }
 nav>ul{
     display: flex;
@@ -26,4 +30,17 @@ nav>ul{
 li>a{
     text-decoration: none;
     color: black;
+}
+li>a:hover{
+    text-decoration: underline black;
+}
+
+/* footer{
+    
+} */
+footer ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
 }
