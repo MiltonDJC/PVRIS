@@ -63,11 +63,46 @@ section article img{
 /* section article img:hover{
     
 } */
-section article p{
-    display: none;
+/* Todo: hacer hover sobre la imagen y cambie de z-index. Imagen pase al fondo y blurree y el nombre adelante */
+section article .oneMember{
+    position: absolute;
+    top: 90%;
+    left: 19.5%;
+    z-index: -1;
 }
-section article:hover p{
-    /* display: inline; */
+section article .twoMember{
+    position: absolute;
+    top: 90%;
+    left: 44.5%;
+    z-index: -1;
+}
+section article .threeMember{
+    position: absolute;
+    top: 90%;
+    left: 73%;
+    z-index: -1;
+}
+section article:hover .oneMember{
+    left: 18.5%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+    /* -webkit-text-stroke: 1px black; */
+}
+section article:hover .twoMember{
+    left: 42.4%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+    /* -webkit-text-stroke: 1px black; */
+}
+section article:hover .threeMember{
+    left: 72%;
+    z-index: 1;
     color: white;
     font-weight: bold;
     font-size: 30px;
