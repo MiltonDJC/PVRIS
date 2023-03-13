@@ -115,6 +115,9 @@ section article:hover .threeMember{
 section article img{
     width: 100%;
 }
+/*! Al pasar por encima del texto del miembro, se desblurrea la imagen.*/ 
+/* Todo: cambiar eso.*/
+/* Todo: al sacar el mouse de encima, que tome el mismo tiempo para desblurrearse. */
 section article img:hover{
     transition: .7s;
     filter: blur(4px);
