@@ -58,6 +58,7 @@ section article img{
     height: 400px;
     /* width: 100%; */
     border-radius: 20px;
+    border: 2px solid black;
     /* margin-top: 50px; */
 }
 /* section article img:hover{
@@ -83,15 +84,17 @@ section article .threeMember{
     z-index: -1;
 }
 section article:hover .oneMember{
-    left: 18.5%;
+    transition: .5s;
+    left: 16%;
     z-index: 1;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Tilt Prism', cursive;
     /* -webkit-text-stroke: 1px black; */
 }
 section article:hover .twoMember{
+    transition: .5s;
     left: 42.4%;
     z-index: 1;
     color: white;
@@ -101,13 +104,21 @@ section article:hover .twoMember{
     /* -webkit-text-stroke: 1px black; */
 }
 section article:hover .threeMember{
-    left: 72%;
+    transition: .5s;
+    left: 69%;
     z-index: 1;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Tilt Prism', cursive;
     /* -webkit-text-stroke: 1px black; */
+}
+section article img{
+    width: 101%;
+}
+section article img:hover{
+    transition: .7s;
+    filter: blur(4px);
 }
 /* footer{
     
