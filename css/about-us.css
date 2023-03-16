@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 /* Styles of members */
-main{
-    /* background: black; */
-
-}
+/*main{
+    /* background: black;
+}*/
 header{
     display: flex;
     justify-content: center;
@@ -119,9 +118,18 @@ section article img{
 /* Todo: cambiar eso.*/
 /* Todo: al sacar el mouse de encima, que tome el mismo tiempo para desblurrearse. */
 section article img:hover{
+    filter: blur(4px);
+    transition: .7s;
+}
+/* section article img:active{
+    filter: blur(0px);
+    transition: .7s;
+} */
+/* section article img:{
     transition: .7s;
     filter: blur(4px);
-}
+} */
+
 /* Todo: Hacer el footer */
 /* footer{
     
