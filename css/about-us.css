@@ -58,6 +58,7 @@ section article img{
     /* width: 100%; */
     border-radius: 20px;
     border: 2px solid black;
+    filter: blur(4px);
     /* margin-top: 50px; */
 }
 /* section article img:hover{
@@ -118,7 +119,7 @@ section article img{
 /* Todo: cambiar eso.*/
 /* Todo: al sacar el mouse de encima, que tome el mismo tiempo para desblurrearse. */
 section article img:hover{
-    filter: blur(4px);
+    filter: blur(0);
     transition: .7s;
 }
 /* section article img:active{
