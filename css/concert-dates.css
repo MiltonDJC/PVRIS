@@ -46,4 +46,10 @@ footer ul{
     justify-content: center;
     justify-content: space-evenly;
     list-style: none;
+    background-color: #000;
+    padding: 15px 0;
+    font-size: 25px;
+}
+footer a{
+    color:white;
 }
