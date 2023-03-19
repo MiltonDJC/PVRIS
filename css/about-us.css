@@ -46,7 +46,7 @@ section{
     display: flex;
     gap: 40px;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 section article{
     display: flex;
@@ -58,9 +58,10 @@ section article img{
     /* width: 100%; */
     border-radius: 20px;
     border: 2px solid black;
-    filter: blur(4px);
+    /* filter: blur(4px); */
     /* margin-top: 50px; */
 }
+
 /* section article img:hover{
     
 } */
@@ -82,6 +83,25 @@ section article .threeMember{
     left: 73%;
     z-index: -1;
 }
+/* modificacion de imagenes */
+/* section .first-member{
+    position: relative;
+    left: 20%;
+    transform: rotate(-45deg);
+    width: 20%;
+}
+section .second-member{
+    position: relative;
+    left: 2%;
+}
+section .third-member{
+    position: relative;
+    right: 15%;
+    transform: rotate(45deg);
+    width: 20%;
+} */
+
+/* modificacion de imagenes con hover */
 section article:hover .oneMember{
     transition: .5s;
     left: 16%;
@@ -131,7 +151,6 @@ section article img:hover{
     filter: blur(4px);
 } */
 
-/* Todo: Hacer el footer */
 footer{
     margin-top: 15px;
 }
